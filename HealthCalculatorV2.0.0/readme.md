@@ -32,18 +32,18 @@
    3.4 结合函数式接口( `Runnable`, `Consumer` )、方法引用, 将方法作为值放入 Map, 通过编号调用对应的方法
 
 ## 使用展示
-1. [前言部分](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1367-1376)    
+1. [前言部分](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1367-L1376)    
    需要等半分钟, 可以输入"0"跳过该部分或者下载后修改[打字机延迟时间](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1284)    
    ![前言](images/foreword-reading.gif)
    
-3. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
+2. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
    动图 50 秒有点长, 就不放出来了~~~    
    可以跳过该部分, 对照[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L139-L195)或者[截图](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/images/function-list.png)输入编号, 也可以缩小或者取消[打印每个字符的延迟时间](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1429)
 
-5. 体验一波    
+3. 体验一波    
    ![计算TDEE展示](images/tdee-calculation-demo.gif)
 
-6. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
+4. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
    ![继续/退出程序](images/continue-confirmation.gif)
 
 ***
