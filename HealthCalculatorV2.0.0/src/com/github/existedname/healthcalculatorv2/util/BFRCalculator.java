@@ -206,7 +206,6 @@ public class BFRCalculator {
     /*      4. 私有静态方法(内部辅助)     */
     // 4.1 BFR 计算通式--符合多数公式的形式,只需传入参数(自变量、系数、计算单位)即可
     private static double getResultByGeneralFormula( String gender, double bmiCoeff, double bmi, double ageCoeff, double age, double genderCoeff, double constTerm ){
-        return ( bmiCoeff * bmi + ageCoeff * age + genderCoeff * Service.intIsMan( gender ) + constTerm );
-                    // 除了创建对象(类的实例),同一个包,可以直接 类.非私有方法
+        return ( bmiCoeff * bmi + ageCoeff * age + genderCoeff * Service.intIsMan( gender ) + constTerm ); 
     }
 }
