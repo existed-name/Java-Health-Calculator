@@ -134,7 +134,8 @@ public class BFRCalculator {
      * @throws IllegalArgumentException 当...时抛出...( 具体异常 )
      * @author // 可选
      * @since 创建该方法的时间或者项目版本号   // 可选
-     * @deprecated 弃用说明     // 可选,用于标记废弃方法并给出替代方案
+     * @ deprecated 弃用说明     // 用于标记废弃方法并需要给出替代方案
+     *    // 注意: 使用被 deprecated 注解标记的方法/类会被编译器警告
      */
 
     /**
