@@ -2,7 +2,7 @@
 代码量相对 [v1.0.0](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV1.0.0) 较大( 3k+行 ), 但思路直接、仅涉及少量进阶知识点, 可以作为初学者的提高训练
 
 ## 文件下载
-
+将 [healthcalculatorv2 包对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载, 或者使用其他方式下载( Git 命令、插件、网站 )
 
 ## 项目功能
 对于多种[身体指标](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/health-metric-intro.md)提供以下功能    
