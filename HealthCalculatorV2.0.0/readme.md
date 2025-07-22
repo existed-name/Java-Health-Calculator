@@ -20,7 +20,7 @@
    1.3 `StringBuilder` 拼接长段文字: 单次输出代替多次输出
    
 2. 面向对象基础   
-   2.1 类( 成员变量、成员方法与方法调用, 感觉挺像结构体的 )   
+   2.1 类( 成员变量、成员方法与方法调用、重载, 感觉挺像结构体的 )   
    2.2 创建对象( 有参数/无参数构造器、`this` 关键字、对象数组 )   
    2.3 修饰符( `public`/`private`, `static` )   
    2.4 封装( 实体类 )、继承( `super()`调用父类构造器 )
@@ -33,16 +33,17 @@
 
 ## 使用展示
 1. [前言部分](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1367-1376)    
-   ![前言]()
+   需要等半分钟, 可以输入"0"跳过该部分或者下载后修改[打字机延迟时间](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1284)    
+   ![前言](images/foreword-reading.gif)
    
-2. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
-   因为[原图]()太长, 这里只放一部分
-   ![部分功能展示]()
+3. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
+   动图 50 秒有点长, 就不放出来了~~~    
+   可以跳过该部分, 对照[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L139-L195)或者[截图](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/images/function-list.png)输入编号, 也可以缩小或者取消[打印每个字符的延迟时间](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1429)
 
-3. 小小体验一波    
-   ![计算TDEE展示]()
+5. 体验一波    
+   ![计算TDEE展示](images/tdee-calculation-demo.gif)
 
-4. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
-   ![继续/退出程序]()
+6. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
+   ![继续/退出程序](images/continue-confirmation.gif)
 
 ***
