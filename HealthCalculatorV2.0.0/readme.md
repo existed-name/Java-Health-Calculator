@@ -35,14 +35,14 @@
 1. [前言部分](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1367-1376)    
    ![前言]()
    
-3. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
-   因为[原图](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/images/function-list.png)太长, 这里只放一部分
+2. [功能一览](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1392-L1428)    
+   因为[原图]()太长, 这里只放一部分
    ![部分功能展示]()
 
-5. 小小体验一波    
+3. 小小体验一波    
    ![计算TDEE展示]()
 
-7. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
+4. [继续 OR 退出](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app/MainApplication.java#L97-L106)    
    ![继续/退出程序]()
 
 ***
