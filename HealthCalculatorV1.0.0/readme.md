@@ -1,16 +1,24 @@
 # Java 健康计算器 v1.0.0
 仅涉及简单语法的控制台程序, 适合作为入门巩固练习、初步培养编程思维
 
+***
+
 ## 下载
-当时代码全写在 1 个类里面的, 200 行左右, 直接复制[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV1.0.0/healthcalculatorv1/HealthCalculatorBeginnerVersion.java)即可  
-( 代码框右上角*Copy raw file* )
+当时代码全写在 1 个类里面的, 200 行左右, 直接复制[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV1.0.0/healthcalculatorv1/HealthCalculatorBeginnerVersion.java)即可( 代码框右上角*Copy raw file* )
+
+## 子文件说明
+* healthcalculatorv1: 存放源码( 仅有 HealthCalculatorBeginnerVersion.java 一个文件 )
+* images: 存放使用展示的图片
+* readme: 项目说明
+
+***
 
 ## 功能
 1. 计算 BMI、BMR
 2. 分析 BMI
 3. 通过计算出的 BMR 给出 TDEE 表格
 
-## 知识应用
+## 知识点
 1. 入门语法
    - 变量声明与数据类型( `int`, `double`, `String` )
    - 基本运算
@@ -41,4 +49,4 @@
 4. 输出 BMR 及 TDEE   
    ![bmr界面](images/bmr-interface.png)
    
-
+***
