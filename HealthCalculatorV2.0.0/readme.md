@@ -3,8 +3,11 @@
 
 ---
 
-## 文件下载
-将 [healthcalculatorv2 包对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载, 或者使用其他方式下载( Git 命令、插件、网站 )
+## 文件下载及使用
+1. 将 [ src 文件夹对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载, 或者使用其他方式下载( Git 命令、插件、网站 )
+2. 取出 src 文件夹中的 com 文件夹, 拖到 IDEA( 或其他编译器 )的 src 文件夹下面
+3. 直接编译运行即可
+4. 注意: 由于不同包之间有依赖关系( `import com.github.existedname.某个包.某个类` ), 所以建议下载时目录至少从[ com 文件夹](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com)开始
 
 ## 子文件说明
 * healthcalculatorv2: 存放源码
