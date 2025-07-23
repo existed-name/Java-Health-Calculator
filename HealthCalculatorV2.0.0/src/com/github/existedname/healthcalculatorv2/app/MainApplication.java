@@ -289,5 +289,4 @@ public class MainApplication {
         // 3. 置空对象
         service = null;
     }
-
 }
