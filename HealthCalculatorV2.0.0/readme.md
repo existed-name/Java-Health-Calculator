@@ -1,8 +1,32 @@
 # Java 健康计算器 v2.0.0
 代码量相对 [v1.0.0](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV1.0.0) 较大( 3k+行 ), 但思路直接、仅涉及少量进阶知识点, 可以作为初学者的提高训练
 
+---
+
 ## 文件下载
 将 [healthcalculatorv2 包对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载, 或者使用其他方式下载( Git 命令、插件、网站 )
+
+## 子文件说明
+* healthcalculatorv2: 存放源码
+  1. [app 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/app): 存放 MainApplication 类, 也就是主程序
+  2. [model 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/model): 存放实体类, 用于创建对象/对象数组, 储存相关数据
+     - UserBodyInfo 类: 存放各种身体数据
+     - User 类: 继承自 UserBodyInfo 类, 存放用户基本信息
+     - HealthMetricIntroduction 类: 创建对象数组 introductionArr, 储存各种身体指标的介绍信息
+     - HealthMetric 类: 创建对象数组 idealRangeArr, 储存各种身体指标的理想范围
+     - HealthMetricIdealRange 类: 储存各种身体指标在不同数值范围下对应的身体情况( 用于给出健康分析 )
+  3. [service 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service): 存放 Service 类
+     - 调用 util 包实现计算、分析, 自身具有打印前言 & 功能清单、介绍、给出理想范围等功能
+     - 这里确实没设计好, Service 类过于臃肿, 准备拆分重构一下
+  5. [util 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/util): 存放用于计算、分析的工具类
+     - BMICalculator, WHRCalculator, BFRCalculator, BRICalculator, BMRCalculator, BSACalculator 类: 都是顾名思义, 计算并返回某个值
+     - TDEECalculator 类: 除了计算, 还有打印活动系数表
+     - HealthMetricAnalyzer 类: 调用 HealthMetric 类, 作用是分析身体指标
+* images: 存放用于展示的截图、动图
+* health-metric-intro: 身体指标简介文档
+* readme: 项目说明
+
+---
 
 ## 项目功能
 对于多种[身体指标](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/health-metric-intro.md)提供以下功能    
