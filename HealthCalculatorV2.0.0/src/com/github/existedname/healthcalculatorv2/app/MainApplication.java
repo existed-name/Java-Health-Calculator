@@ -10,14 +10,14 @@ import java.util.function.Consumer;
 
 public class MainApplication {
     /*      1. 成员变量     */
-    // 比较占位置,所以放最下面了
+    // 比较占位置, 所以放最下面了
 
 
 
     /*      2. 公有静态方法       */
     // 2.1 main 方法
     public static void main( String[] args ){
-        // main 仅作为程序入口,不包含具体业务逻辑
+        // main 仅作为程序入口, 不包含具体业务逻辑
         startApplication( args );
     }
 
@@ -28,7 +28,7 @@ public class MainApplication {
     private static void startApplication( String[] args ){
         // 提前创建对象
         Scanner scanner = new Scanner( System.in );
-        User user = new User(); // 注: 不用提前输入身体信息,在调用方法之后再输入
+        User user = new User(); // 注: 不用提前输入身体信息, 在调用方法之后再输入
 
         try {
             // 主逻辑
