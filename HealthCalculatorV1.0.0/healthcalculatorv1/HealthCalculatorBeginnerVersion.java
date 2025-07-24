@@ -221,7 +221,7 @@ public class HealthCalculatorBeginnerVersion {
             // 恢复中断状态(重要!)
             Thread.currentThread().interrupt();
             // 打印异常信息或进行其他处理
-            System.err.println("暂停被中断: " + e.getMessage());
+            System.err.println( "暂停被中断: " + e.getMessage() );
         }
     }
 }
