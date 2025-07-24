@@ -197,7 +197,7 @@ public class MainApplication {
         // put( "6", "更新中,未完待续..." );
     }
 
-    // 1.1.2 字符串-方法( 无参数,无返回值 )对应表
+    // 1.1.2 字符串-方法( 无参数, 无返回值 )对应表
     private static Map< String, Runnable > idToRunnableMap = new HashMap< String, Runnable > ();
     static {
         // 1. 创建对象实例
