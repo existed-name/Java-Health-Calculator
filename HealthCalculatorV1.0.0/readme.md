@@ -4,7 +4,8 @@
 ***
 
 ## 下载
-当时代码全写在 1 个类里面的, 200 行左右, 直接复制[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV1.0.0/healthcalculatorv1/HealthCalculatorBeginnerVersion.java)即可( 代码框右上角*Copy raw file* )
+* 当时代码全写在 1 个类里面的, 200 行左右, 直接复制[源码](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV1.0.0/healthcalculatorv1/HealthCalculatorBeginnerVersion.java)即可( 代码框右上角*Copy raw file* )
+* [更多下载方式](https://github.com/existed-name/Java-Health-Calculator?tab=readme-ov-file#%E4%B8%8B%E8%BD%BD%E8%AF%B4%E6%98%8E)
 
 ## 子文件说明
 * healthcalculatorv1: 存放源码( 仅有 HealthCalculatorBeginnerVersion.java 一个文件 )
