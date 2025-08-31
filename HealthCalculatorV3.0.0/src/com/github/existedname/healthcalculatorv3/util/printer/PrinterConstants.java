@@ -72,7 +72,7 @@ public final class PrinterConstants {
             /** 加载动画点与点之间的延迟( ms ) */
             public static final int LOADING_DOT_DELAY = 100; // 延迟 100 ms 比较合适
             /** 打印功能列表每个字符的延迟时间( ms ) */
-            public static final int FUNCTION_LIST_CHAR_DELAY = 30;
+            public static final int FUNCTION_LIST_CHAR_DELAY = 20;
 
             private CharDelay(){}
 
@@ -135,5 +135,6 @@ public final class PrinterConstants {
 
 
     // ==================== 私有辅助方法 ====================
+
 
 }
