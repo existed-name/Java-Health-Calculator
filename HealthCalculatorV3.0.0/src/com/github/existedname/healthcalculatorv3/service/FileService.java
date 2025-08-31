@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 import java.util.Objects;
 
 /**
- * 文件服务类, 提供对文件的操作方法, 目前用于用户数据保存
+ * 文件服务类, 提供对文件的操作方法, 目前用于将用户数据保存到项目文件中
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
  * @since 3.0.0
@@ -126,4 +126,5 @@ public final class FileService {
             throw e;
         }
     }
+
 }
