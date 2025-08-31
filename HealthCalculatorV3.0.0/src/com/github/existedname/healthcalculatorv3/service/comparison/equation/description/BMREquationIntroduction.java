@@ -3,7 +3,7 @@ package com.github.existedname.healthcalculatorv3.service.comparison.equation.de
 import lombok.AllArgsConstructor;
 
 /**
- * BMR 各种公式介绍( 名称 + 简短描述 )
+ * BMR 公式介绍枚举类( 名称 + 简短描述 ), 实现 {@link EquationIntroduction } 接口
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
  * @since 3.0.0
@@ -37,4 +37,5 @@ public enum BMREquationIntroduction implements EquationIntroduction {
         public void printEquationIntroduction(){
             System.out.println( equationName + "\n\t————" + description );
         }
+
     }
