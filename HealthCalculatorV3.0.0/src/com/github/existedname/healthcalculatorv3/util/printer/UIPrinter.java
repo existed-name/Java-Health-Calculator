@@ -3,7 +3,7 @@ package com.github.existedname.healthcalculatorv3.util.printer;
 import java.util.Objects;
 
 /**
- * UI 打印工具类, 提供控制台打印相关的常量( 主要是字符 )、工具方法( 模拟打字机、打点、打印分隔线等 )
+ * UI 打印工具类, 提供控制台打印工具方法( 模拟打字机、打点、打印分隔线等 )
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
  * @since 3.0.0
@@ -196,3 +196,4 @@ public final class UIPrinter {
         System.out.println();
     }
 }
+
