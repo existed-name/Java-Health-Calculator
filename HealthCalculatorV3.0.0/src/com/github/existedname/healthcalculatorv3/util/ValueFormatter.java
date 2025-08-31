@@ -5,7 +5,7 @@ import com.github.existedname.healthcalculatorv3.util.validator.MethodParameterV
 import java.util.Objects;
 
 /**
- * 数值格式化工具类, 提供将数值格式化为字符串或闭区间等功能
+ * 数值格式化工具类, 用于将数值格式化为字符串或闭区间
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
  * @since 3.0.0
@@ -163,3 +163,4 @@ public final class ValueFormatter {
 
     // ==================== 私有辅助方法 ====================
 }
+
