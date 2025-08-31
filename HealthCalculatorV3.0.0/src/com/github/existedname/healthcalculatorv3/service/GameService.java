@@ -12,7 +12,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 /**
- * 健康计算器游戏服务类, 提供游戏循环
+ * 健康计算器游戏服务类, 提供作为程序核心的游戏循环
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
  * @since 3.0.0
@@ -174,3 +174,4 @@ public final class GameService {
     }
 
 }
+
