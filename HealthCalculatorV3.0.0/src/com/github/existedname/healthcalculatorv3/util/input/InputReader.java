@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 /**
- * 输入读取器, 提供读取特定名称( 比如"年龄"、"体重"、"性别" )的有效 int、double、String 类型数据的方法<br>
+ * 输入读取器, 提供读取指定名称( "年龄"、"体重"、"性别" )的有效数据( int、double、String 类型 )的方法<br>
  * ( 通过打印提示信息、输入验证循环保证数据有效 )
  *
  * @author <a href="https://github.com/existed-name"> existed-name </a>
@@ -304,3 +304,4 @@ public final class InputReader {
         System.out.print( String.format("请输入有效的<%s>:\t", dataName) );
     }
 }
+
