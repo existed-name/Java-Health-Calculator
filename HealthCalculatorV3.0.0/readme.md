@@ -27,16 +27,6 @@
 
 ---
 
-## 文件下载及使用
-
-
----
-
-## 子文件说明
-关于项目的文件结构见[子文件说明](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/subfile-desciption.md)
-
----
-
 ## 项目功能
 对于多种[健康指标](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/body-metric-introduction.md)提供以下功能    
 - 详细**介绍**定义、公式/测量方式、功能、局限性
@@ -45,6 +35,33 @@
 - **对比**不同公式算出的某一指标数据
 - 提供健康指标的**参考**范围
 - 将输入的基本数据以及计算得到的数值**保存**到项目文件中
+  
+---
+
+## 文件下载
+1. 方式一: 只下载 src 文件夹
+   1. 将 [src 文件夹对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV3.0.0/src)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载, 或者使用其他工具下载( Git 命令、插件、网站 )
+   2. 下载后会得到一个压缩包, 进行解压
+   3. 在 IDEA( 或其他编译器 )中创建一个空项目, 或者打开一个项目
+   4. 取出解压缩后的 src 文件夹中的 com 文件夹, 拖到项目的 src 文件夹里面
+2. 方式二: 下载整个项目文件夹
+   1. 将 [ HealthCalculatorV3 对应的网址](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV3.0.0)复制到 [DownGit](https://tool.mkblog.cn/downgit/#/home) 上进行下载
+   2. 解压
+   3. 用编译器打开解压后的文件夹里面的项目
+3. [更多下载方式](https://github.com/existed-name/Java-Health-Calculator?tab=readme-ov-file#%E4%B8%8B%E8%BD%BD%E8%AF%B4%E6%98%8E)
+
+---
+
+## 使用说明
+1. 由于项目使用了 `lombok` 框架, 需要解决依赖问题 → [往项目中添加 lombok 依赖](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/lombok-introduction.md#%E5%AF%BC%E5%85%A5%E6%A1%86%E6%9E%B6)
+2. 进入 [app 包]()的 [MainApplication] 主程序类, 编译运行
+3. 在控制台打印信息( 比如各种表格 )时, 请耐心阅读并等待程序提示进行输入; 如果感觉打印慢, 可以在 [util.printer 包]()的 `PrinterConstants.TimeConstants` 类中调整打印延迟时间
+4. 如果保存数据到项目文件时报错( 比如找不到指定路径 ), 请确保 `com.exitedname.healthcalculatorv3` 包放在项目的 src 文件夹下
+
+---
+
+## 子文件说明
+关于项目的文件结构见[子文件说明](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/subfile-desciption.md)
 
 ---
 
