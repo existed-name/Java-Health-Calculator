@@ -17,16 +17,16 @@ v3.0.0 引入了 `lombok` 框架, 这里讲解一下 `lombok` 的基本使用和
 
 ## 导入框架
 1. 在类顶部添加 `lombok` 注解, 等待编译器报错( 因为还没有添加依赖 )  
-   ![lombok 报错](HealthCalculatorV3.0.0/images/lombok-example/lombok-error.png)
+   ![lombok 报错](images/lombok-example/lombok-error.png)
 
 2. 选中报错的一行, 按 `Alt + Enter`, 弹出一个选择栏, 点击 `Add lombok to classpath`
-   ![解决办法](HealthCalculatorV3.0.0/images/lombok-example/solution-alt+enter.png)
+   ![解决办法](images/lombok-example/solution-alt+enter.png)
 
 3. 【记得联网】点击弹出的提示框的 `OK`
-   ![下载 lombok](HealthCalculatorV3.0.0/images/lombok-example/lombok-download.png)
+   ![下载 lombok](images/lombok-example/lombok-download.png)
    
 4. 成功添加 `lombok` 到 `External Libraries` 中
-   ![下载成功](HealthCalculatorV3.0.0/images/lombok-example/success.png)
+   ![下载成功](images/lombok-example/success.png)
 
 ---
 
