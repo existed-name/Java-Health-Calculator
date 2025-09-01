@@ -28,6 +28,17 @@ v3.0.0 引入了 `lombok` 框架, 这里讲解一下 `lombok` 的基本使用和
 4. 成功添加 `lombok` 到 `External Libraries` 中
    ![下载成功](images/lombok-example/success.png)
 
+   
+5. 然而虽然没在编译时报错, 但运行时 ↓  
+   ![运行时异常](images/lombok-example/lombok-runtime-error.png)  
+   这是因为还没有**启用注解处理**( `Enable annotation processing` )
+   ![注解处理启用提示](images/lombok-example/annotation-processing-warning.png)
+   
+
+6. 打开设置, 找到 `Enable annotation processing`  
+   ![打开 IDEA 设置面板](images/annotation-setting/idea-settings.png)
+   ![启用注解处理](images/annotation-setting/enable-annotation-processing.png)
+
 ---
 
 还可以参考[我的知乎博客](https://zhuanlan.zhihu.com/p/1929658439619027287)
