@@ -1,4 +1,6 @@
-# 身体指标介绍 
+建议移步 [v3.0.0 修正后的身体指标介绍](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/body-metric-introduction.md)  
+
+# 身体指标介绍  
 以下是汇总并分类好的参考资料, 各位同学可以了解一波, 便于理解项目中出现的各种名词, 顺便涨涨知识~~~    
 也可以直接看
 [ Service 类第 1072 行 - 1135 行 ](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV2.0.0/src/com/github/existedname/healthcalculatorv2/service/Service.java#L1072-L1135)
