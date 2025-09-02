@@ -3,6 +3,11 @@
 
 ---
 
+## 使用展示
+由于控制台可见的内容改动不大, 可以直接看 [v2.0.0 的使用展示](https://github.com/existed-name/Java-Health-Calculator/edit/main/HealthCalculatorV2.0.0/readme.md#%E4%BD%BF%E7%94%A8%E5%B1%95%E7%A4%BA)
+
+---
+
 ## 更新内容
 1. 优化确认选项( 是、否 )的输入、判定
    * v2.0.0: "是请按 1, 否请按 0", 然而只有输入 0 才会判定为"否", 其他输入( 包括直接 Enter )会判定为"是"
@@ -54,8 +59,8 @@
 
 ## 使用说明
 1. 由于项目使用了 `lombok` 框架, 需要解决依赖问题 → [往项目中添加 lombok 依赖](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/lombok-introduction.md#%E5%AF%BC%E5%85%A5%E6%A1%86%E6%9E%B6)
-2. 进入 [app 包]()的 [MainApplication] 主程序类, 编译运行
-3. 在控制台打印信息( 比如各种表格 )时, 请耐心阅读并等待程序提示进行输入; 如果感觉打印慢, 可以在 [util.printer 包]()的 `PrinterConstants.TimeConstants` 类中调整打印延迟时间
+2. 进入 [app 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV3.0.0/src/com/github/existedname/healthcalculatorv3/app)的 `MainApplication` 主程序类, 编译运行
+3. 在控制台打印信息( 比如各种表格 )时, 请耐心阅读并等待程序提示进行输入; 如果感觉打印慢, 可以在 [util.printer 包](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV3.0.0/src/com/github/existedname/healthcalculatorv3/util/printer)的 `PrinterConstants.TimeConstants` 类中调整打印延迟时间
 4. 如果保存数据到项目文件时报错( 比如找不到指定路径 ), 请确保 `com.exitedname.healthcalculatorv3` 包放在项目的 src 文件夹下
 
 ---
@@ -65,12 +70,38 @@
 
 ---
 
-## 知识清单
+## 知识清单 & 项目亮点
+在 [v2.0.0 的知识清单](https://github.com/existed-name/Java-Health-Calculator/edit/main/HealthCalculatorV2.0.0/readme.md#%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95)基础上增加以下内容  
 
+1. 枚举类: 使用枚举类替代对象数组来封装数量和内容固定的数据集, 语义更清晰, 管理更便捷
+2. 嵌套类: 给部分类( 主要是常量类 )创建一层或多层内部类( 但不超过 2 层 ), 对类成员( 主要是变量 )分组管理
+3. IO 流: 结合字节输出流、字符字节转换流、缓冲流将用户数据写入项目文件进行保存
+4. 异常处理:
+   1. 各类方法严格检验参数, 抛出合理的异常( 绝大多数方法 )或自行处理异常( 读取控制台输入的方法 )
+   2. 将 `try-catch` 块应用到游戏循环, 避免异常导致游戏崩溃
+   3. 将游戏循环中捕获的异常用 `System.err.println` 打印, 通过醒目的异常信息提示玩家
+5. 代码简化:
+   1. `lombok 框架`: 应用 [`lombok` 框架](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/lombok-introduction.md#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)简化实体类( 包括枚举类 )代码
+   2. 接口: 为性质、功能相似的类设计接口, 将这些类的相同行为抽象到接口中
+   3. 方法引用:
+      1. 创建容器封装一系列方法, 便于调用指定的方法
+         比如用 `HashMap` 将功能编号和实现功能的方法对应起来, 通过编号调用功能; 将同一身体指标的不同计算公式展示方法封装到 `ArrayList` 中, 通过遍历 `ArrayList` 来进行一系列展示
+      2. 将多个逻辑相同、实现极其相似、但内部调用方法不同的方法抽出模板方法, 用函数式接口( `BiFunction`、`Function` )作为参数, 只需传入方法引用、其他参数即可, 大大简化代码
+6. 增强内聚:
+   1. 密切相关的类放同一个包下, 比如 `UIPrinter` 工具类的附属常量类 `PrinterConstants` 和它一起放 `util.printer` 包下, 而不是拆分到 `constant` 包中
+   2. 与常量处理密不可分的方法放进常量类, 避免脱离依赖的数据而空洞
+7. 项目规范:  
+   1. 合理命名: 除了满足基本的驼峰命名, 类、方法、变量的命名尽量详细明确, 避免模糊命名、不通用的缩写
+   2. 合理分包: 根据项目需求分为 app、model、service、util 包, 各个包内又根据功能关联性细分包, 项目结构清晰
+   3. 详细注释:
+      1. 点明注释对象( 类/方法/变量字段 )的作用, 注明类、某些方法/字段的起始版本号( `@since` )
+      2. 详细描述方法参数( 包含单位 )、返回值( 单为 )、抛出异常( 当....时抛出异常 ) 以及 计算公式( `<pre></pre>` )、参考网址( `@see` )
+      3. 给部分方法、字段的注释添加链接( `{@link Xxx类#Xxx方法 }`, 便于查找使用场景
+   4. 类规范:
+      1. 统一用 final 修饰, 除非明确可以被继承
+      2. 工具类私有化构造器, 方法用 `static` 修饰
+      3. 枚举类用 `final` 修饰字段, 避免添加 `setter`( 包括作为枚举类字段的对象 ), 保证整体的不可变性
+      4. 类成员按照合理顺序排列( 常量 → 静态变量 → 实例变量 → 构造器 → 公有方法 → 私有方法 ), 方便源码查找
 
 ---
 
-## 使用展示
-
-
----
