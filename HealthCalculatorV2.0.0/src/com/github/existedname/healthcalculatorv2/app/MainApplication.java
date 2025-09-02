@@ -232,7 +232,6 @@ public class MainApplication {
         idToRunnableMap.put( "5.3.1", service::checkIdealBSA );
 
         // put( "6", "更新中,未完待续..." );
-
         /*
          *      static 块中的成员的生命周期 = 类的生命周期 => 在类的运行结束后,
          *  static 块中的变量、对象才会消失并被垃圾回收器回收
@@ -290,3 +289,4 @@ public class MainApplication {
         service = null;
     }
 }
+
