@@ -16,7 +16,7 @@
   - 技术: 对 v2.0.0 进行重构( 极大地优化项目结构 ), 详见 [v3.0.0 知识清单](https://github.com/existed-name/Java-Health-Calculator/blob/main/HealthCalculatorV3.0.0/readme.md#%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95--%E9%A1%B9%E7%9B%AE%E4%BA%AE%E7%82%B9]
   - 功能: 主要是优化体验( 异常处理、控制台输入 ), 新增了保存数据的功能
   
-* To be updated...
+4. To be updated...
 
 ## 下载说明
 1. 下载整个仓库: 仓库首页右上部分 → 绿色的 "<> Code" → Local → Download Zip
