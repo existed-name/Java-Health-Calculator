@@ -4,7 +4,7 @@
 ---
 
 ## 使用展示
-由于控制台可见的内容改动不大, 可以直接看 [v2.0.0 的使用展示](https://github.com/existed-name/Java-Health-Calculator/edit/main/HealthCalculatorV2.0.0/readme.md#%E4%BD%BF%E7%94%A8%E5%B1%95%E7%A4%BA)
+由于控制台可见的内容改动不大, 可以直接看 [v2.0.0 的使用展示](https://github.com/existed-name/Java-Health-Calculator/tree/main/HealthCalculatorV2.0.0#%E4%BD%BF%E7%94%A8%E5%B1%95%E7%A4%BA)
 
 ---
 
