@@ -17,7 +17,6 @@ public final class MainApplication {
     // ==================== 常量 ====================
 
 
-
     // ==================== 静态变量 ====================
     /** 当前用户, 之后可以拓展为 UserManager 集中管理用户 */
     private static User user = new User();
@@ -70,3 +69,4 @@ public final class MainApplication {
     }
 
 }
+
